@@ -1,0 +1,1665 @@
+@mixin settingsButtonPos() {
+  position: absolute;
+  right: 60px;
+  top: -25px;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.con-vs-dropdown--menu.vs-dropdown-menu {
+  z-index: 9999999;
+}
+
+.cardhold_popup_dash {
+  .vs-popup {
+    max-height: none !important;
+  }
+
+  z-index: 222222;
+
+  .vs-popup {
+    min-width: 1000px;
+    min-height: 680px;
+    max-height: 750px;
+  }
+
+  .right_block {
+    .vx-card__body {
+      padding: 0 !important;
+    }
+  }
+}
+
+// .cardhold_popup_dash .cardhold_popup_dash_edit {
+//   z-index: 222222;
+// }
+
+// .cardhold_popup_dash_edit .vs-popup {
+//   min-width: 1000px;
+//   min-height: 680px;
+//   max-height: 750px;
+// }
+
+.update_info_button_dash {
+  top: -15px;
+}
+
+.dash_custom_block {
+  position: relative;
+
+  .custtomize_settings {
+    position: absolute;
+    top: -39px;
+    right: 10px;
+    // background: black;
+    // color: white;
+    padding: 2px;
+    cursor: pointer;
+  }
+
+  .monitor_settings {
+    position: absolute;
+    // background: black;
+    right: 45px;
+    top: -55px;
+    // color: white;
+    padding: 2px;
+    font-size: 1.6rem;
+    cursor: pointer;
+  }
+
+
+  .ap_status_settings {
+    @include settingsButtonPos;
+
+  }
+
+  .inner_block {
+    background: #b6d7a8;
+    padding: 8px 16px;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  .gray_color {
+    background: #cccccc;
+  }
+
+  .block_color {
+    background: #444;
+    color: white;
+  }
+
+  .red_color {
+    background: #e06666;
+    color: white;
+  }
+
+  .green_color {
+    background: #28c76f;
+    color: white;
+  }
+
+  .blue_color {
+    background: #4599ff;
+    color: white;
+  }
+
+  .pink {
+    background: #af7ed5;
+    color: white;
+  }
+
+  .r_padd {
+    padding-right: 5px;
+  }
+
+  .l_padd {
+    padding-left: 5px;
+  }
+
+  .card_avatar {
+    object-fit: cover;
+  }
+
+  .yellow_color {
+    background: #ffc24f;
+  }
+
+  .list_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .table_custom_ul {
+    li {
+      // color: black;
+      padding: 5px 0;
+
+      &:nth-child(2n) {
+        background: #eeeeee;
+      }
+
+      >div:first-child {
+        width: 50%;
+      }
+
+      >div:last-child {
+        // text-align: center;
+        width: 72%;
+      }
+    }
+  }
+
+  .card_desh {
+    height: 100%;
+  }
+
+  .last_event {
+    display: block;
+    // float: left;
+    margin-bottom: 15px;
+
+    >.vx-col {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      margin: 0 13px;
+
+      >span {
+        margin-right: 15px;
+      }
+    }
+
+    .vs__dropdown-toggle {
+      width: 140px;
+    }
+  }
+
+  .search_table {
+    .columns_button {
+      top: -55px;
+      right: 90px;
+    }
+
+    .con-input-search {
+      padding: 0;
+    }
+  }
+
+  .drop_tables {
+    display: block;
+    position: absolute;
+    top: -40px;
+    right: 145px;
+    margin-bottom: 8px;
+  }
+
+  .status_drop {
+    display: block;
+    position: absolute;
+    top: -40px;
+    right: 145px;
+    margin-bottom: 8px;
+  }
+
+  .table_search {
+    .columns_button {
+      top: -70px;
+      right: 70px;
+    }
+
+    .con-input-search {
+      padding: 0;
+    }
+  }
+
+  .remove_activity_item {
+    display: inline-block;
+    position: absolute;
+    z-index: 99;
+    top: -35px;
+    right: 13px;
+
+    i {
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .remove_dashboard_item {
+    display: inline-block;
+    position: absolute;
+    z-index: 99;
+    top: 8px;
+    right: 15px;
+
+    i {
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+}
+
+.dash_custom_block .remove_dashboard_item .screen_false {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.dash_setting {
+  position: absolute;
+  top: -46px;
+
+  button {
+    z-index: 999;
+  }
+}
+
+.without_back {
+  .vs-popup--background {
+    background: none;
+  }
+}
+
+.da_pop {
+  .email__labels {
+    height: 552px;
+  }
+}
+
+.cardhold_popup .vs-popup {
+  // min-width: 1000px;
+  // min-height: auto;
+  // max-height: initial;
+
+  min-width: 1000px;
+  min-height: 680px;
+  // max-height: 750px;
+}
+
+.da_pop {
+  .block_account {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .row_block {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    // padding: 10px;
+    margin: 0 -15px;
+    // box-shadow: 0 1px 10px 1px #00000012;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .right_block {
+    flex: 0 0 70%;
+    max-width: 70%;
+    // padding: 0 15px;
+  }
+
+  .left_block {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-top: 35px;
+    padding-left: 20px;
+
+    >div {
+      padding-right: 5px;
+    }
+  }
+
+  .row_block::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    border-radius: 0;
+    background: #e5e5e5;
+  }
+
+  .row_block::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #999999;
+  }
+
+  .right_block,
+  .left_block {
+    min-height: 630px;
+  }
+}
+
+.popup_width_small {
+  .vs-popup {
+    min-width: 1000px;
+    min-height: 680px;
+    // max-height: 750px;
+  }
+}
+
+.card_drop_menu {
+  width: 38px;
+  height: 38px;
+  color: rgb(115, 103, 240);
+  border: 1px solid rgb(115, 103, 240);
+  border-radius: 14%;
+
+  .leading-none i {
+    margin-top: 2px;
+  }
+}
+
+.addOpened {
+  z-index: 99999999;
+  -webkit-transition: none;
+  transition: none;
+
+  .vs-popup--background {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .vs-popup {
+    -webkit-transition: none;
+    transition: none;
+    -webkit-animation: none;
+    animation: none;
+  }
+}
+
+.without_back {
+  .vs-popup--background {
+    background: none;
+  }
+}
+
+.da_pop {
+  .email__labels {
+    height: 552px;
+  }
+}
+
+.da_button {
+  margin: -3px 0px 0px;
+  justify-content: flex-end;
+}
+
+.screen_false {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.invite_btn {
+  margin-top: 1.5rem !important;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #22ace8;
+  cursor: pointer;
+
+  i {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+}
+
+.reg_invite_popup {
+  z-index: 99999999;
+
+  .vs-popup {
+    width: 400px;
+  }
+}
+
+.load_progress {
+  .vs-dialog-text {
+    text-align: center;
+  }
+}
+
+.vue-progress-path .progress {
+  stroke: red;
+}
+
+.vue-progress-path .background {
+  stroke: #edd;
+}
+
+.cardhold_popup_dash {
+  .vx-card__body {
+    >.vx-row {
+      margin: 0 !important;
+    }
+  }
+}
+
+.da_pop {
+  .block_account {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .row_block {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    // padding: 10px;
+    margin: 0 -15px;
+    // box-shadow: 0 1px 10px 1px #00000012;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .right_block {
+    flex: 0 0 70%;
+    max-width: 70%;
+    padding: 0 15px;
+    overflow: hidden;
+  }
+
+  .left_block {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-top: 35px;
+    padding-left: 20px;
+
+    >div {
+      padding-right: 5px;
+    }
+  }
+
+  .row_block::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    border-radius: 0;
+    background: #e5e5e5;
+  }
+
+  .row_block::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #999999;
+  }
+
+  .right_block,
+  .left_block {
+    min-height: 630px;
+  }
+}
+
+.s_popup .vs-popup--content {
+  height: 200px;
+  position: relative;
+
+  .cg_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.card_drop_menu_inner .vs-dropdown--custom.vs-dropdown--menu {
+  width: 150px;
+}
+
+.con-vs-dropdown--menu.vs-dropdown-menu {
+  z-index: 9999999;
+}
+
+.cardhold_popup .vs-popup {
+  min-width: 1000px;
+  min-height: 680px;
+  // max-height: 750px;
+
+  // min-width: 1000px;
+  // min-height: auto;
+  // max-height: initial;
+}
+
+// .cardholder_page {
+//   .vs-popup--background {
+//     transition: unset !important;
+//     opacity: 1 !important;
+//   }
+// }
+
+// .cardholder_page {
+//   .drop_tables {
+//     position: relative;
+//     top: -50px;
+//   }
+
+//   .con-input-search.vs-table--search {
+//     margin-right: 250px;
+//     position: relative;
+//     top: -94px;
+
+//     input {
+//       padding: 10px 28px;
+//       font-size: 12px;
+//     }
+//   }
+
+//   // .table_actions {
+//   //   flex-direction: row-reverse;
+//   //   margin-bottom: 10px;
+//   //   position: relative;
+
+//   //   // top: 60px;
+//   //   .vx-col {
+//   //     padding: 0 5px !important;
+//   //   }
+//   // }
+
+//   .fullchange_btn {
+//     padding: 9px !important;
+//   }
+
+//   .fullchange_btn_inner {
+//     border: 0 !important;
+
+//     .burger_span {
+//       display: block;
+//       width: 20px;
+//       height: 2px;
+//       margin-bottom: 3px;
+//       background: #7367f0;
+//     }
+//   }
+
+//   .popup_width_small {
+//     .vs-popup {
+//       min-width: 1000px;
+//       min-height: 680px;
+//       // max-height: 750px;
+//     }
+//   }
+
+//   .vs-component.con-vs-dialog.vs-dialog-danger {
+//     z-index: 999999999999 !important;
+//   }
+// }
+
+.card_multi_tbl {
+  margin-top: -70px;
+
+  .tr-values {
+    .vs-table--td {
+      padding: 0 15px !important;
+    }
+  }
+}
+
+.card_drop_menu {
+  width: 38px;
+  height: 38px;
+  // color: rgb(115, 103, 240);
+  // border: 1px solid rgb(115, 103, 240);
+  border-radius: 14%;
+
+  .leading-none i {
+    margin-top: 2px;
+  }
+}
+
+.addOpened {
+  z-index: 99999999;
+  -webkit-transition: none;
+  transition: none;
+
+  .vs-popup--background {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .vs-popup {
+    -webkit-transition: none;
+    transition: none;
+    -webkit-animation: none;
+    animation: none;
+  }
+}
+
+.without_back {
+  .vs-popup--background {
+    background: none;
+  }
+}
+
+.da_pop {
+  .email__labels {
+    height: 552px;
+  }
+}
+
+.da_button {
+  margin: -3px 0px 0px;
+  justify-content: flex-end;
+}
+
+.screen_false {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.invite_btn {
+  margin-top: 1.5rem !important;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #22ace8;
+  cursor: pointer;
+
+  i {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+}
+
+.reg_invite_popup {
+  z-index: 99999999;
+
+  .vs-popup {
+    width: 400px;
+  }
+}
+
+.confirm_card__delete {
+  display: flex;
+  justify-content: center;
+
+  >.vx-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  span {
+    font-size: 18px;
+  }
+
+  .bold_text {
+    font-weight: 800;
+  }
+}
+
+.load_progress .vs-dialog {
+  width: 700px;
+  max-width: 700px;
+}
+
+.dash_cardholder_pop_edit {
+
+  // .right_block {
+  //   padding: 0 30px !important;
+  // }
+  .vx-card__body {
+    padding: 0 !important;
+
+    >.vx-row {
+      margin: 0 !important;
+    }
+  }
+}
+
+.custom-tooltip {
+  width: 150px;
+  height: 70px;
+  border: 1px solid cornflowerblue;
+  overflow: hidden;
+}
+
+.custom-tooltip p {
+  margin: 5px;
+  white-space: nowrap;
+}
+
+.custom-tooltip p:first-of-type {
+  font-weight: bold;
+}
+
+.edit_cr_credential {
+  .vx-card__body {
+    >.vx-row {
+      margin: 0 !important;
+    }
+  }
+}
+
+
+.access_point_status_chart {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+
+  .options_list {
+    margin-top: 30px;
+
+    li {
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+      cursor: pointer;
+      max-width: 100%;
+
+      &.selected {
+
+        &.green {
+          outline: 1px solid #2bca70;
+          box-shadow: 0 0 8px 1px #2bca70;
+        }
+
+        &.red {
+          outline: 1px solid #e96561;
+          box-shadow: 0 0 8px 1px #e96561;
+        }
+
+        &.blue {
+          outline: 1px solid #009dc1;
+          box-shadow: 0 0 8px 1px #009dc1;
+        }
+
+        &.yellow {
+          outline: 1px solid #ffc755;
+          box-shadow: 0 0 8px 1px #ffc755;
+        }
+
+        &.white {
+          outline: 1px solid #e7ecff;
+          box-shadow: 0 0 8px 1px #e7ecff;
+        }
+
+        &.gray {
+          outline: 1px solid #e7ecff;
+          box-shadow: 0 0 8px 1px #e7ecff;
+        }
+      }
+    }
+  }
+
+  .apex_custom {
+    position: relative;
+    max-width: 45%;
+    flex: 0 0 45%;
+
+    >div {
+      min-height: 165px !important;
+      max-width: 100%;
+    }
+
+    >span {
+      position: absolute;
+      left: 0;
+      top: -10px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      font-weight: 500;
+      max-width: 100%;
+    }
+  }
+
+  .options_block {
+    max-width: 55%;
+    flex: 0 0 55%;
+    padding-right: 20px;
+  }
+}
+
+.dashboard_inner {
+  .remove_dashboard_item i {
+    font-size: 20px;
+  }
+
+  .vx-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .vx-card__collapsible-content {
+    flex: 1;
+    height: 60%;
+  }
+
+  .vx-card__body {
+    height: 100%;
+    padding: 0 20px 10px 20px !important;
+  }
+
+  .vx-card__header {
+    min-height: 50px;
+  }
+}
+
+.monitor_card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .vx-card__collapsible-content {
+    height: 60%;
+    flex: 1;
+  }
+
+  .vx-card__body {
+    padding: 0 20px 20px !important;
+  }
+
+  .live_monitor {
+    .dashboard_title {
+      left: 20px;
+      right: 20px;
+
+      @media (max-width: 1904px) {
+        font-size: 15px !important;
+      }
+
+    }
+  }
+
+  .live_monitor_parents {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .vs__selected-options {
+      input {
+        cursor: pointer;
+        width: 0;
+        height: 0;
+        padding: 0 !important;
+        line-height: 0 !important;
+        font-size: 0;
+        border: none;
+        max-width: 0;
+      }
+
+      .vs__selected {
+        flex: 1;
+      }
+    }
+
+    .live_monitor {
+      height: 60%;
+      flex: 1;
+      display: flex;
+      margin: 0;
+    }
+
+    &.no_cctv {
+      min-height: auto;
+
+      .live_monitor_parents {
+        min-height: auto;
+      }
+
+      .info_block_dashboard {
+        max-width: 100%;
+        flex: 0 0 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .miniature_block {
+        display: flex;
+      }
+
+      .car_avatar_dashboard {
+        margin: 0 !important;
+        display: block !important;
+        max-width: 220px;
+      }
+
+      .table_custom_ul {
+        flex: 1;
+        width: 60%;
+        padding-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      .monnitor_img_block {
+        width: 100%;
+        margin-bottom: 20px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    &.absolute_dashboard .live_monitor {
+      z-index: 100;
+
+      &.vertical_monitor {
+        .vue_custom_drag {
+          width: 180px !important;
+
+          @media (max-width: 1904px) {
+            width: 100px !important;
+
+            .monnitor_img_block:last-child {
+              padding: 0 !important;
+            }
+
+            .table_custom_ul .list_inner {
+              font-size: 10px;
+              padding: 0 !important;
+            }
+          }
+        }
+      }
+
+      &.horizontal_monitor {
+        .vue_custom_drag {
+          position: absolute;
+          width: auto !important;
+          box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08) !important;
+
+          @media (max-width: 1904px) {
+            width: 50% !important;
+          }
+        }
+
+      }
+
+      >.video_block_dashboard {
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 !important;
+
+        .play_video {
+          width: 100%;
+          display: block;
+        }
+
+        .live_stream_block {
+          canvas {
+            display: block;
+          }
+        }
+
+        .pending_video {
+          text-align: center;
+        }
+      }
+
+
+
+      >.info_block_dashboard {
+        position: absolute;
+        width: 50% !important;
+        box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08) !important;
+      }
+
+      .info_block_dashboard {
+        max-width: 100%;
+
+        .miniature_block {
+          display: flex;
+          padding: 10px;
+
+          .car_avatar_dashboard {
+            justify-content: flex-start !important;
+            height: auto !important;
+          }
+
+          .table_custom_ul {
+            width: 150px;
+            padding: 0;
+
+            li {
+              padding-bottom: 0;
+            }
+          }
+
+
+
+          @media (max-width: 1904px) {
+            .monnitor_img_block {
+              width: 120px !important;
+
+            }
+
+            .list_inner {
+              padding: 1px 0 !important;
+              font-size: 9px !important;
+            }
+          }
+
+
+
+
+          .monnitor_img_block {
+            margin-bottom: 0 !important;
+            width: 176px;
+            padding-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 10px 0 0;
+
+
+            img {
+              max-height: 100%;
+            }
+          }
+        }
+
+        &.vertical {
+
+          .miniature_block {
+            flex-direction: column;
+
+            .monnitor_img_block {
+              width: 100% !important;
+              padding: 0 0 10px;
+            }
+
+            .car_avatar_dashboard {
+              flex-direction: column;
+            }
+          }
+
+          .table_custom_ul {
+            width: 100%;
+            min-width: auto;
+            padding: 0;
+          }
+
+
+        }
+      }
+
+      .info_block_dashboard {
+        padding: 0;
+      }
+    }
+
+    .car_avatar_dashboard {
+      justify-content: center !important;
+      margin: 0 !important;
+    }
+  }
+
+  .vx-card__body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+.filter_monitor {
+  position: absolute;
+  top: -55px;
+  right: 80px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.live_monitor_1_parent {
+  min-height: 500px;
+
+  .live_monitor {
+    display: flex;
+    margin: 0 -10px;
+
+    .vue_custom_drag {
+      .content-container {
+        width: 100% !important;
+        height: auto !important;
+      }
+    }
+
+    .car_avatar_dashboard {
+      margin: 0 -5px !important;
+    }
+
+    .monnitor_img_block {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      margin-bottom: 10px;
+      width: 50%;
+      padding: 0 5px;
+
+      img {
+        object-fit: contain;
+      }
+    }
+
+    .table_custom_ul {
+      .list_inner {
+        font-size: 12px;
+      }
+
+      .list_inner div:nth-child(2) {
+        text-align: end;
+      }
+    }
+
+    .ap_monitor_ {
+      text-align: end;
+    }
+
+    .video_block_dashboard {
+      justify-content: center;
+      max-width: 57%;
+      flex: 0 0 57%;
+      margin-right: 3%;
+      margin: 0;
+      position: relative;
+      padding: 50px 0 20px;
+      // border: 1px solid #80808033;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+
+      &.success {
+        border-top: 10px solid #2bca70;
+        border-bottom: 10px solid #2bca70;
+
+        @media (max-width: 1904px) {
+          border-top: 5px solid #2bca70;
+          border-bottom: 5px solid #2bca70;
+        }
+      }
+
+      &.failed {
+        border-top: 10px solid #e96561;
+        border-bottom: 10px solid #e96561;
+
+        @media (max-width: 1904px) {
+          border-top: 5px solid #e96561;
+          border-bottom: 5px solid #e96561;
+
+        }
+
+      }
+
+      &.no_event {
+        border-top: 10px solid #7282a0;
+        border-bottom: 10px solid #7282a0;
+
+        @media (max-width: 1904px) {
+          border-top: 5px solid #7282a0;
+          border-bottom: 5px solid #7282a0;
+        }
+      }
+
+      .title {
+        position: absolute;
+        top: 5px;
+      }
+    }
+
+    .info_block_dashboard {
+      max-width: 40%;
+      flex: 0 0 40%;
+      margin: 0;
+      border-radius: 5px;
+      padding: 10px;
+      // border: 1px solid #80808033;
+
+      &.success {
+        border-top: 10px solid #2bca70;
+        border-bottom: 10px solid #2bca70;
+
+        @media (max-width: 1904px) {
+          border-top: 5px solid #2bca70;
+          border-bottom: 5px solid #2bca70;
+        }
+
+      }
+
+      &.failed {
+        border-top: 10px solid #e96561;
+        border-bottom: 10px solid #e96561;
+
+        @media (max-width: 1904px) {
+          border-top: 5px solid #e96561;
+          border-bottom: 5px solid #e96561;
+        }
+
+      }
+
+
+      &.no_event {
+        border-top: 10px solid #7282a0;
+        border-bottom: 10px solid #7282a0;
+
+        @media (max-width: 1904px) {
+          border-top: 5px solid #7282a0;
+          border-bottom: 5px solid #7282a0;
+        }
+
+      }
+    }
+
+    .video-js {
+      width: 100% !important;
+    }
+  }
+
+  .manual__override_dash {
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 11px;
+
+    svg {
+      // width: 32px;
+      width: auto;
+      height: 40px;
+    }
+
+    >div {
+      width: auto;
+      cursor: pointer;
+    }
+
+    .left_btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 9px;
+      position: relative;
+      vertical-align: middle;
+      height: 32px;
+      /* double the border width */
+      box-sizing: border-box;
+      border-left: none !important;
+    }
+
+    .left_btn:before {
+      content: "";
+      border-top: 16px solid transparent;
+      border-bottom: 16px solid transparent;
+      border-right: 16px solid var(--themeCustomizerHeaderColor1) !important;
+      position: absolute;
+      left: -16px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .left_btn:after {
+      content: "";
+      border-top: 14px solid transparent;
+      border-bottom: 14px solid transparent;
+      border-right: 14px solid;
+      position: absolute;
+      left: -14px;
+      top: 50%;
+      transform: translateY(-50%);
+
+    }
+
+    img {
+      width: 30px;
+    }
+
+    .antipanic {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 9px;
+      position: relative;
+      vertical-align: middle;
+      height: 32px;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+
+    .right_btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // background: green;
+      padding: 0 9px;
+      // border: solid 1px black;
+      // border-right: none !important;
+      position: relative;
+      vertical-align: middle;
+      height: 32px;
+      /* double the border width */
+      box-sizing: border-box;
+      // width: 10%;
+      border-right: none !important;
+    }
+
+    .right_btn:after {
+      content: "";
+      border-top: 14px solid transparent;
+      border-bottom: 14px solid transparent;
+      border-left: 14px solid;
+      position: absolute;
+      right: -14px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    .right_btn:before {
+      content: "";
+      border-top: 16px solid transparent;
+      border-bottom: 16px solid transparent;
+      border-left: 16px solid var(--themeCustomizerHeaderColor1) !important;
+      position: absolute;
+      right: -16px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+
+.cameras_dashboard {
+  position: absolute;
+  right: 140px;
+  top: -58px;
+  width: 220px;
+  margin-top: 0 !important
+}
+
+.activity_actions {
+  .select_padding {
+    min-width: 96px;
+  }
+
+  .activity_settings {
+    @include settingsButtonPos;
+    top: -45px !important;
+
+  }
+
+  .last_events {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 110px;
+    top: -55px;
+    width: 230px;
+
+    span {
+      margin-right: 8px;
+    }
+  }
+}
+
+.full_scrren_stream {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  // height: 100%;
+  z-index: 9999999999;
+}
+
+
+.vdr.active:before {
+  content: unset;
+}
+
+
+.dashboard_mon_1 #dashboard_live_stream_1,
+.dashboard_mon_2 #dashboard_live_stream_2 {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+
+
+@media (max-width: 2300px) {
+  .access_point_status_chart .options_list li {
+    // padding: 10px;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .dashboard_inner {
+    .vx-card__body {
+      padding: 0 10px 15px 10px !important;
+    }
+
+    .vx-card__header {
+      min-height: 45px !important;
+    }
+  }
+
+  .apex_custom {
+    >span {
+      top: 5px !important;
+    }
+  }
+}
+
+
+@media (max-width: 1981px) {
+  .options_block {
+    padding-right: 10px !important;
+    max-width: 50% !important;
+    flex: 0 0 50% !important;
+  }
+
+  .apex_custom {
+    max-width: 50% !important;
+    flex: 0 0 50% !important;
+  }
+}
+
+
+@media (max-width: 1904px) {
+  .access_point_status_chart {
+    .options_block {
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+      padding-right: 0 !important;
+      padding-bottom: 10px !important;
+      margin-bottom: auto !important;
+    }
+
+    .apex_custom {
+      margin: 0 !important;
+      max-width: 100% !important;
+      flex: 0 0 100% !important;
+      margin-top: auto !important;
+    }
+
+    .options_list li {
+      padding: 6px !important;
+    }
+  }
+
+  .dashboard_inner {
+    .vx-card__header {
+      min-height: 40px !important;
+    }
+
+    .options_list {
+      margin-top: 25px;
+    }
+  }
+
+  ._1 {
+    padding-right: 0.5rem !important;
+  }
+
+  ._2,
+  ._3,
+  ._4 {
+    padding: 0 0.5rem !important;
+  }
+
+  ._5 {
+    padding-left: 0.5rem !important;
+  }
+
+  ._1,
+  ._2,
+  ._3,
+  ._4,
+  ._5 {
+    .vx-card__body {
+      padding-bottom: 0 !important;
+    }
+
+    .options_block {
+      padding-bottom: 0 !important;
+    }
+  }
+
+}
+
+@media (max-width: 1699px) {
+  .dash_custom_block {
+    .dash_setting {
+      margin: 0 -0.5rem;
+    }
+
+    .dashboard_inner {
+      padding: 0 0.5rem;
+    }
+
+    >.vx-row {
+      margin: 0 -0.5rem;
+    }
+  }
+
+  .dashboard_inner {
+    .vx-card__header {
+      padding: 15px 24px 0 10px !important;
+    }
+
+    .remove_dashboard_item {
+      top: 8px;
+      right: 5px;
+
+      i {
+        font-size: 17px;
+      }
+    }
+  }
+
+  .access_point_status_chart {
+    .options_list li {
+      padding: 10px;
+    }
+  }
+}
+
+@media (max-width: 1499px) {
+  .dash_custom_block {
+    .dashboard_main {
+      flex-direction: column;
+
+      >div {
+        width: 100% !important;
+        max-width: 100%;
+
+        &:last-child {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+.aps {
+  .ap_status_settings {
+    top: -45px !important;
+  }
+
+  .remove_dashboard_item {
+    top: 10px !important;
+  }
+
+  .columns_button {
+    top: -60px !important;
+  }
+
+  .drop_tables {
+    top: -60px !important;
+  }
+
+  .remove_activity_item {
+    top: -55px !important;
+  }
+
+  .vx-card__body {
+    padding-top: 5px !important;
+  }
+}
+
+.act {
+
+  .activity_settings {
+    top: -45px !important;
+  }
+
+  .remove_dashboard_item {
+    top: -10px;
+  }
+
+  .vx-card__body {
+    padding-top: 5px !important;
+  }
+}
+
+.acu_status_select {
+  position: absolute;
+  top: -59px;
+  right: 118px;
+  width: 100px;
+}
+
+.group_actions_dash {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: -59px;
+  right: 230px;
+}
+
+.mode_prompt {
+  .vs-dialog-cancel-button {
+    background-color: #e14b4b !important;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 5px;
+  }
+}
+
+.lock_down_hint, .unlock_hint, .normal_hint {
+  position: absolute;
+  top: 50px;
+  left: 110px;
+  z-index: 999;
+
+  padding: 10px 15px;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 100%;
+}
+

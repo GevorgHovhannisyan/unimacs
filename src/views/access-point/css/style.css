@@ -1,0 +1,87 @@
+@import "../../../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../../../../node_modules/@syncfusion/ej2-vue-navigations/styles/material.css";
+@import "../../../../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+.tabs_block .con-slot-tabs {
+    height: 500px;
+}
+
+.selected_devices {
+    cursor: no-drop;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.device_item span, .selected_devices span {
+    user-select: none;
+}
+
+.device_item {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: cell;
+    text-align: center;
+}
+
+.add_device {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.add_access_point {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.list-group {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    padding-left: 0;
+    min-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, .125);
+    cursor: move;
+}
+
+.signal_level {
+    width: 100%;
+    background: #e0e0e0;
+}
+
+.signal_width {
+    width: 35%;
+    background: #89e372;
+    color: black;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+.popup_width_small .vs-popup {
+    min-width: 1000px;
+    min-height: 600px;
+    max-height: 750px;
+}
+
+.resource_popup {
+    z-index: 99999;
+}

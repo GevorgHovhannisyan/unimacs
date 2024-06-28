@@ -1,0 +1,30 @@
+{
+    "moduleTest": {
+        "fields": {
+            "surName": {
+                "formType": "number",
+                "label": "sur name",
+                "header": true
+            },
+            "iddaaCCaaaa": {
+                "formType": "number",
+                "label": "iddaa c caaaa",
+                "header": true
+            },
+            "gender": {
+                "formType": "selects",
+                "label": "gender",
+                "header": false,
+                "selections": [
+                    "Mr",
+                    "Ms",
+                    "Mx",
+                    "Dr",
+                    "Madam"
+                ]
+            }
+        },
+        "type": "list",
+        "params": {}
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "testmodule1": {
+        "type": "list",
+        "fields": {
+            "id": {
+                "formType": "numberInput",
+                "label": "ID",
+                "readOnly": true
+            },
+            "title": {
+                "formType": "textInput",
+                "label": "Title",
+                "header": true,
+                "multiLng": true
+            },
+            "image": {
+                "formType": "imageUpload",
+                "label": "Image",
+                "header": true
+            },
+            "upload": {
+                "formType": "uploadFile",
+                "label": "Upload"
+            },
+            "status": {
+                "formType": "switchButton",
+                "label": "Status",
+                "header": true
+            },
+            "position": {
+                "formType": "numberInput",
+                "label": "Position",
+                "header": true
+            },
+            "email": {
+                "formType": "emailInput",
+                "label": "Email",
+                "header": true
+            },
+            "gender": {
+                "formType": "selectInput",
+                "label": "Gender",
+                "selections": [
+                    {
+                        "name": "Male",
+                        "id": 1
+                    },
+                    {
+                        "name": "Feale",
+                        "id": 2
+                    }
+                ]
+            },
+            "published": {
+                "formType": "checkboxButton",
+                "label": "Published",
+                "multiLng": true
+            },
+            "body": {
+                "formType": "editor",
+                "label": "Body",
+                "multiLng": true
+            }
+        }
+    },
+    "testmodule2": {
+        "type": "tree",
+        "fields": {
+            "id": {
+                "formType": "number",
+                "label": "ID"
+            },
+            "title": {
+                "formType": "text",
+                "label": "Title",
+                "header": true
+            },
+            "image": {
+                "formType": "image",
+                "label": "Image",
+                "header": true
+            },
+            "status": {
+                "formType": "switch",
+                "label": "Status",
+                "header": true
+            },
+            "position": {
+                "formType": "number",
+                "label": "Position",
+                "header": true
+            },
+            "email": {
+                "formType": "email",
+                "label": "Email",
+                "header": true
+            },
+            "gender": {
+                "formType": "selects",
+                "label": "Gender",
+                "selections": [
+                    "Mr",
+                    "Ms",
+                    "Mx",
+                    "Dr",
+                    "Madam"
+                ]
+            },
+            "published": {
+                "formType": "checkbox",
+                "label": "Published"
+            },
+            "body": {
+                "formType": "editor",
+                "label": "Body"
+            },
+            "upload": {
+                "formType": "upload",
+                "label": "Upload"
+            }
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "en": {
+        "logs": {
+            "date_time": "Date/Time",
+            "event": "Event",
+            "target": "Target",
+            "value": "Value",
+            "name": "Name",
+            "last_name": "Last Name",
+            "account": "Account",
+            "group": "Group",
+            "access_role": "Access role",
+            "user_account": "user_account"
+        },
+        "popups": {
+            "Detail_information": "Detail Information",
+            "Choose_rows": "Choose rows",
+            "Report": "Report",
+            "ReportManager": "Report manager"
+        },
+        "tab": {
+            "User": "User",
+            "AccountGroup": "Accounts Group",
+            "Role": "Role",
+            "Account": "Account",
+            "Privilege": "Privilege",
+            "ServiceCompanyInformation": "Service company information",
+            "CompanyDocuments": "Company documents",
+            "BasicSettings": "Basic settings",
+            "ExtraSettings": "Extra settings",
+            "Period": "Period",
+            "AccessPoint": "Access Point",
+            "Cardholders": "Cardholders",
+            "MainInfo": "Main info"
+        },
+        "input_fields": {
+            "Name": "Name",
+            "FirstName": "First name",
+            "LastName": "Last Name",
+            "Email": "Email",
+            "FamilyName": "Family name",
+            "InheritGroupRole": "Inherited group assigned role",
+            "Status": "Status",
+            "NewPassword": "New Password",
+            "ConfirmPassword": "Confirm Password",
+            "OldPassword": "Old Password",
+            "Description": "Description",
+            "Department": "Department",
+            "Username": "Username",
+            "Comment": "Comment",
+            "ParentId": "Parent ID",
+            "Search": "Search",
+            "ServiceCompanyId": "Service Company ID",
+            "CompanyName": "Company Name",
+            "ContactPerson": "Contact Person",
+            "Phone": "Phone",
+            "Address": "Address",
+            "Site": "Site",
+            "Active": "Active",
+            "Inactive": "Inactive",
+            "PackageType": "Package type",
+            "PayType": "Pay type",
+            "BasicPrice": "Basic Price",
+            "ReportType": "Report type",
+            "TemplateName": "Template name",
+            "TemplateDescription": "Template description"
+        },
+        "table": {
+            "ID": "#",
+            "PayTerms": "Pay terms",
+            "Discount": "Discount",
+            "Price": "Price",
+            "ResourceName": "Resource name",
+            "Enable": "Enable",
+            "QTY": "QTY",
+            "Action": "Action",
+            "Direction": "Direction",
+            "Credential": "Credential",
+            "Company": "Company",
+            "AccessRight": "Access Right"
+        },
+        "date_picker": {
+            "Start": "Start Time",
+            "End": "End Time"
+        },
+        "account": {
+            "new_user": "New user",
+            "local_accounts": "Local accounts"
+        },
+        "buttons": {
+            "add": "Add New",
+            "ChangeAvatar": "Change Avatar",
+            "RemoveAvatar": "Remove Avatar",
+            "RemoveDocument": "Remove Document",
+            "Upload": "Upload",
+            "SaveChange": "Save Changes",
+            "Cancel": "Cancel",
+            "ChangePassword": "Change Password",
+            "Submit": "Submit",
+            "Save": "Save",
+            "Create": "Create",
+            "Delete": "Delete",
+            "UpdateInfo": "Update information",
+            "RolePermissions": "Role permissions",
+            "Actions": "Actions",
+            "UpdatePackage": "Update Package",
+            "CreatePackage": "Create Package",
+            "SaveAsTemplate": "Save as template",
+            "Execute": "Execute",
+            "OpenInNewWindow": "Open in new window"
+        },
+        "pages": {
+            "PersonalInfo": "Personal info",
+            "ChangePassword": "Change password",
+            "CreateUser": "Create User",
+            "Package": "Package",
+            "StoredTemplates": "Stored Templates"
+        }
+    },
+    "de": {},
+    "fr": {},
+    "pt": {}
+}

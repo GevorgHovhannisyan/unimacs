@@ -1,0 +1,46 @@
+.guest_actions_block {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.free_slots_block {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.slot_item {
+    width: 15px;
+    height: 15px;
+
+    &.filled {
+        background: black;
+    }
+
+    &.bordered {
+        border: 2px solid black;
+    }
+
+    &.empty {
+        border: 2px solid black;
+        opacity: 0.5;
+    }
+}
+
+.guest_dropdown .vs-dropdown--custom.vs-dropdown--menu {
+    width: 150px;
+}
+
+.guest_multi_table {
+    .con-input-search.vs-table--search {
+        margin-right: 190px;
+        position: relative;
+        top: -60px;
+    }
+
+    .con-tablex.vs-table--content {
+        position: relative;
+        top: -60px;
+    }
+}

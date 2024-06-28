@@ -1,0 +1,119 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("./icomoon.eot?w1rw0h");
+  src: url("./icomoon.eot?w1rw0h#iefix") format("embedded-opentype"),
+    url("./icomoon.ttf?w1rw0h") format("truetype"),
+    url("./icomoon.woff?w1rw0h") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Raleway';
+  src: url('./Raleway-Light.eot');
+  src: url('./Raleway-Light.eot?#iefix') format('embedded-opentype'),
+      url('./Raleway-Light.woff2') format('woff2'),
+      url('./Raleway-Light.woff') format('woff'),
+      url('./Raleway-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+[class^="icon_"],
+[class*=" icon_"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon_cctv:before {
+  content: "\e90b";
+}
+
+.icon_card_controll:before {
+  content: "\e909";
+}
+.icon_company:before {
+  content: "\e900";
+}
+.icon_client_company:before {
+  content: "\e901";
+}
+.icon_reports:before {
+  content: "\e902";
+}
+.icon_reporting_manager:before {
+  content: "\e903";
+}
+.icon_events:before {
+  content: "\e904";
+}
+.icon_ticket:before {
+  content: "\e905";
+}
+.icon_system:before {
+  content: "\e906";
+}
+.icon_packages:before {
+  content: "\e907";
+}
+.icon_dash {
+    position: relative;
+    &:before {
+        content: "\e908";
+        display: block;
+    }
+    &:after {
+        content: "\e90a";
+        position: absolute;
+        top: 0;
+        right: 0;
+        color: #7cdbfe;
+        display: block;
+
+    }
+}
+.icon_point_controll:before {
+  content: "\e90c";
+}
+.icon_access_point:before {
+  content: "\e90d";
+}
+.icon_group_zones:before {
+  content: "\e90e";
+}
+.icon_cardholders:before {
+  content: "\e912";
+}
+.icon_access_right:before {
+  content: "\e913";
+}
+.icon_groups:before {
+  content: "\e914";
+}
+.icon_guest_keys:before {
+  content: "\e915";
+}
+.icon_schedule_controll:before {
+  content: "\e916";
+}
+.icon_schedule:before {
+  content: "\e917";
+}
+.icon_auto_tasks:before {
+  content: "\e918";
+}
+.icon_company_controll:before {
+  content: "\e919";
+}

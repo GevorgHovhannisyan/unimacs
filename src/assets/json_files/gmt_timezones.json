@@ -1,0 +1,570 @@
+[
+    {
+        "label": "International Date Line West",
+        "id": "International Date Line West GMT-11:00"
+    },
+    {
+        "label": "Midway Island",
+        "id": "Midway Island GMT-11:00"
+    },
+    {
+        "label": "Samoa",
+        "id": "Samoa GMT-11:00"
+    },
+    {
+        "label": "Hawaii",
+        "id": "Hawaii GMT-10:00"
+    },
+    {
+        "label": "Alaska",
+        "id": "Alaska GMT-09:00"
+    },
+    {
+        "label": "Pacific Time (US & Canada)",
+        "id": "Pacific Time (US & Canada) GMT-08:00"
+    },
+    {
+        "label": "Tijuana",
+        "id": "Tijuana GMT-08:00"
+    },
+    {
+        "label": "Arizona",
+        "id": "Arizona GMT-07:00"
+    },
+    {
+        "label": "Chihuahua",
+        "id": "Chihuahua GMT-07:00"
+    },
+    {
+        "label": "Mazatlan",
+        "id": "Mazatlan GMT-07:00"
+    },
+    {
+        "label": "Mountain Time (US & Canada)",
+        "id": "Mountain Time (US & Canada) GMT-07:00"
+    },
+    {
+        "label": "Central America",
+        "id": "Central America GMT-06:00"
+    },
+    {
+        "label": "Central Time (US & Canada)",
+        "id": "Central Time (US & Canada) GMT-06:00"
+    },
+    {
+        "label": "Guadalajara",
+        "id": "Guadalajara GMT-06:00"
+    },
+    {
+        "label": "Mexico City",
+        "id": "Mexico City GMT-06:00"
+    },
+    {
+        "label": "Monterrey",
+        "id": "Monterrey GMT-06:00"
+    },
+    {
+        "label": "Saskatchewan",
+        "id": "Saskatchewan GMT-06:00"
+    },
+    {
+        "label": "Bogota",
+        "id": "Bogota GMT-05:00"
+    },
+    {
+        "label": "Eastern Time (US & Canada)",
+        "id": "Eastern Time (US & Canada) GMT-05:00"
+    },
+    {
+        "label": "Indiana (East)",
+        "id": "Indiana (East) GMT-05:00"
+    },
+    {
+        "label": "Lima",
+        "id": "Lima GMT-05:00"
+    },
+    {
+        "label": "Quito",
+        "id": "Quito GMT-05:00"
+    },
+    {
+        "label": "Caracas",
+        "id": "Caracas GMT-04:30"
+    },
+    {
+        "label": "Atlantic Time (Canada)",
+        "id": "Atlantic Time (Canada) GMT-04:00"
+    },
+    {
+        "label": "Georgetown",
+        "id": "Georgetown GMT-04:00"
+    },
+    {
+        "label": "La Paz",
+        "id": "La Paz GMT-04:00"
+    },
+    {
+        "label": "Santiago",
+        "id": "Santiago GMT-04:00"
+    },
+    {
+        "label": "Newfoundland",
+        "id": "Newfoundland GMT-03:30"
+    },
+    {
+        "label": "Brasilia",
+        "id": "Brasilia GMT-03:00"
+    },
+    {
+        "label": "Buenos Aires",
+        "id": "Buenos Aires GMT-03:00"
+    },
+    {
+        "label": "Greenland",
+        "id": "Greenland GMT-03:00"
+    },
+    {
+        "label": "Mid-Atlantic",
+        "id": "Mid-Atlantic GMT-02:00"
+    },
+    {
+        "label": "Azores",
+        "id": "Azores GMT-01:00"
+    },
+    {
+        "label": "Cape Verde Is.",
+        "id": "Cape Verde Is. GMT-01:00"
+    },
+    {
+        "label": "Casablanca",
+        "id": "Casablanca GMT+00:00"
+    },
+    {
+        "label": "Dublin",
+        "id": "Dublin GMT+00:00"
+    },
+    {
+        "label": "Edinburgh",
+        "id": "Edinburgh GMT+00:00"
+    },
+    {
+        "label": "Lisbon",
+        "id": "Lisbon GMT+00:00"
+    },
+    {
+        "label": "London",
+        "id": "London GMT+00:00"
+    },
+    {
+        "label": "Monrovia",
+        "id": "Monrovia GMT+00:00"
+    },
+    {
+        "label": "UTC",
+        "id": "UTC GMT+00:00"
+    },
+    {
+        "label": "Amsterdam",
+        "id": "Amsterdam GMT+01:00"
+    },
+    {
+        "label": "Belgrade",
+        "id": "Belgrade GMT+01:00"
+    },
+    {
+        "label": "Berlin",
+        "id": "Berlin GMT+01:00"
+    },
+    {
+        "label": "Bern",
+        "id": "Bern GMT+01:00"
+    },
+    {
+        "label": "Bratislava",
+        "id": "Bratislava GMT+01:00"
+    },
+    {
+        "label": "Brussels",
+        "id": "Brussels GMT+01:00"
+    },
+    {
+        "label": "Budapest",
+        "id": "Budapest GMT+01:00"
+    },
+    {
+        "label": "Copenhagen",
+        "id": "Copenhagen GMT+01:00"
+    },
+    {
+        "label": "Ljubljana",
+        "id": "Ljubljana GMT+01:00"
+    },
+    {
+        "label": "Madrid",
+        "id": "Madrid GMT+01:00"
+    },
+    {
+        "label": "Paris",
+        "id": "Paris GMT+01:00"
+    },
+    {
+        "label": "Prague",
+        "id": "Prague GMT+01:00"
+    },
+    {
+        "label": "Rome",
+        "id": "Rome GMT+01:00"
+    },
+    {
+        "label": "Sarajevo",
+        "id": "Sarajevo GMT+01:00"
+    },
+    {
+        "label": "Skopje",
+        "id": "Skopje GMT+01:00"
+    },
+    {
+        "label": "Stockholm",
+        "id": "Stockholm GMT+01:00"
+    },
+    {
+        "label": "Vienna",
+        "id": "Vienna GMT+01:00"
+    },
+    {
+        "label": "Warsaw",
+        "id": "Warsaw GMT+01:00"
+    },
+    {
+        "label": "West Central Africa",
+        "id": "West Central Africa GMT+01:00"
+    },
+    {
+        "label": "Zagreb",
+        "id": "Zagreb GMT+01:00"
+    },
+    {
+        "label": "Athens",
+        "id": "Athens GMT+02:00"
+    },
+    {
+        "label": "Bucharest",
+        "id": "Bucharest GMT+02:00"
+    },
+    {
+        "label": "Cairo",
+        "id": "Cairo GMT+02:00"
+    },
+    {
+        "label": "Harare",
+        "id": "Harare GMT+02:00"
+    },
+    {
+        "label": "Helsinki",
+        "id": "Helsinki GMT+02:00"
+    },
+    {
+        "label": "Istanbul",
+        "id": "Istanbul GMT+02:00"
+    },
+    {
+        "label": "Jerusalem",
+        "id": "Jerusalem GMT+02:00"
+    },
+    {
+        "label": "Kyiv",
+        "id": "Kyiv GMT+02:00"
+    },
+    {
+        "label": "Minsk",
+        "id": "Minsk GMT+02:00"
+    },
+    {
+        "label": "Pretoria",
+        "id": "Pretoria GMT+02:00"
+    },
+    {
+        "label": "Riga",
+        "id": "Riga GMT+02:00"
+    },
+    {
+        "label": "Sofia",
+        "id": "Sofia GMT+02:00"
+    },
+    {
+        "label": "Tallinn",
+        "id": "Tallinn GMT+02:00"
+    },
+    {
+        "label": "Vilnius",
+        "id": "Vilnius GMT+02:00"
+    },
+    {
+        "label": "Baghdad",
+        "id": "Baghdad GMT+03:00"
+    },
+    {
+        "label": "Kuwait",
+        "id": "Kuwait GMT+03:00"
+    },
+    {
+        "label": "Moscow",
+        "id": "Moscow GMT+03:00"
+    },
+    {
+        "label": "Nairobi",
+        "id": "Nairobi GMT+03:00"
+    },
+    {
+        "label": "Riyadh",
+        "id": "Riyadh GMT+03:00"
+    },
+    {
+        "label": "St. Petersburg",
+        "id": "St. Petersburg GMT+03:00"
+    },
+    {
+        "label": "Volgograd",
+        "id": "Volgograd GMT+03:00"
+    },
+    {
+        "label": "Tehran",
+        "id": "Tehran GMT+03:30"
+    },
+    {
+        "label": "Abu Dhabi",
+        "id": "Abu Dhabi GMT+04:00"
+    },
+    {
+        "label": "Baku",
+        "id": "Baku GMT+04:00"
+    },
+    {
+        "label": "Muscat",
+        "id": "Muscat GMT+04:00"
+    },
+    {
+        "label": "Tbilisi",
+        "id": "Tbilisi GMT+04:00"
+    },
+    {
+        "label": "Yerevan",
+        "id": "Yerevan GMT+04:00"
+    },
+    {
+        "label": "Kabul",
+        "id": "Kabul GMT+04:30"
+    },
+    {
+        "label": "Ekaterinburg",
+        "id": "Ekaterinburg GMT+05:00"
+    },
+    {
+        "label": "Islamabad",
+        "id": "Islamabad GMT+05:00"
+    },
+    {
+        "label": "Karachi",
+        "id": "Karachi GMT+05:00"
+    },
+    {
+        "label": "Tashkent",
+        "id": "Tashkent GMT+05:00"
+    },
+    {
+        "label": "Chennai",
+        "id": "Chennai GMT+05:30"
+    },
+    {
+        "label": "Kolkata",
+        "id": "Kolkata GMT+05:30"
+    },
+    {
+        "label": "Mumbai",
+        "id": "Mumbai GMT+05:30"
+    },
+    {
+        "label": "New Delhi",
+        "id": "New Delhi GMT+05:30"
+    },
+    {
+        "label": "Sri Jayawardenepura",
+        "id": "Sri Jayawardenepura GMT+05:30"
+    },
+    {
+        "label": "Kathmandu",
+        "id": "Kathmandu GMT+05:45"
+    },
+    {
+        "label": "Almaty",
+        "id": "Almaty GMT+06:00"
+    },
+    {
+        "label": "Astana",
+        "id": "Astana GMT+06:00"
+    },
+    {
+        "label": "Dhaka",
+        "id": "Dhaka GMT+06:00"
+    },
+    {
+        "label": "Novosibirsk",
+        "id": "Novosibirsk GMT+06:00"
+    },
+    {
+        "label": "Rangoon",
+        "id": "Rangoon GMT+06:30"
+    },
+    {
+        "label": "Bangkok",
+        "id": "Bangkok GMT+07:00"
+    },
+    {
+        "label": "Hanoi",
+        "id": "Hanoi GMT+07:00"
+    },
+    {
+        "label": "Jakarta",
+        "id": "Jakarta GMT+07:00"
+    },
+    {
+        "label": "Krasnoyarsk",
+        "id": "Krasnoyarsk GMT+07:00"
+    },
+    {
+        "label": "Beijing",
+        "id": "Beijing GMT+08:00"
+    },
+    {
+        "label": "Chongqing",
+        "id": "Chongqing GMT+08:00"
+    },
+    {
+        "label": "Hong Kong",
+        "id": "Hong Kong GMT+08:00"
+    },
+    {
+        "label": "Irkutsk",
+        "id": "Irkutsk GMT+08:00"
+    },
+    {
+        "label": "Kuala Lumpur",
+        "id": "Kuala Lumpur GMT+08:00"
+    },
+    {
+        "label": "Perth",
+        "id": "Perth GMT+08:00"
+    },
+    {
+        "label": "Singapore",
+        "id": "Singapore GMT+08:00"
+    },
+    {
+        "label": "Taipei",
+        "id": "Taipei GMT+08:00"
+    },
+    {
+        "label": "Ulaan Bataar",
+        "id": "Ulaan Bataar GMT+08:00"
+    },
+    {
+        "label": "Urumqi",
+        "id": "Urumqi GMT+08:00"
+    },
+    {
+        "label": "Osaka",
+        "id": "Osaka GMT+09:00"
+    },
+    {
+        "label": "Sapporo",
+        "id": "Sapporo GMT+09:00"
+    },
+    {
+        "label": "Seoul",
+        "id": "Seoul GMT+09:00"
+    },
+    {
+        "label": "Tokyo",
+        "id": "Tokyo GMT+09:00"
+    },
+    {
+        "label": "Yakutsk",
+        "id": "Yakutsk GMT+09:00"
+    },
+    {
+        "label": "Adelaide",
+        "id": "Adelaide GMT+09:30"
+    },
+    {
+        "label": "Darwin",
+        "id": "Darwin GMT+09:30"
+    },
+    {
+        "label": "Brisbane",
+        "id": "Brisbane GMT+10:00"
+    },
+    {
+        "label": "Canberra",
+        "id": "Canberra GMT+10:00"
+    },
+    {
+        "label": "Guam",
+        "id": "Guam GMT+10:00"
+    },
+    {
+        "label": "Hobart",
+        "id": "Hobart GMT+10:00"
+    },
+    {
+        "label": "Melbourne",
+        "id": "Melbourne GMT+10:00"
+    },
+    {
+        "label": "Port Moresby",
+        "id": "Port Moresby GMT+10:00"
+    },
+    {
+        "label": "Sydney",
+        "id": "Sydney GMT+10:00"
+    },
+    {
+        "label": "Vladivostok",
+        "id": "Vladivostok GMT+10:00"
+    },
+    {
+        "label": "Kamchatka",
+        "id": "Kamchatka GMT+11:00"
+    },
+    {
+        "label": "Magadan",
+        "id": "Magadan GMT+11:00"
+    },
+    {
+        "label": "New Caledonia",
+        "id": "New Caledonia GMT+11:00"
+    },
+    {
+        "label": "Solomon Is.",
+        "id": "Solomon Is. GMT+11:00"
+    },
+    {
+        "label": "Auckland",
+        "id": "Auckland GMT+12:00"
+    },
+    {
+        "label": "Fiji",
+        "id": "Fiji GMT+12:00"
+    },
+    {
+        "label": "Marshall Is.",
+        "id": "Marshall Is. GMT+12:00"
+    },
+    {
+        "label": "Wellington",
+        "id": "Wellington GMT+12:00"
+    },
+    {
+        "label": "Nuku'alofa",
+        "id": "Nuku'alofa GMT+13:00"
+    }
+]

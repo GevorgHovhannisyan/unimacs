@@ -1,0 +1,301 @@
+.load_progress {
+  .vs-dialog-text {
+    text-align: center;
+  }
+}
+
+.vue-progress-path .progress {
+  stroke: red;
+}
+
+.vue-progress-path .background {
+  stroke: #edd;
+}
+
+.da_pop {
+  .block_account {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+
+  .row_block {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    // padding: 10px;
+    margin: 0 -15px;
+    // box-shadow: 0 1px 10px 1px #00000012;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .right_block {
+    flex: 0 0 70%;
+    max-width: 70%;
+    padding: 0 15px;
+    // overflow: hidden;
+  }
+
+  .left_block {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-top: 35px;
+    padding-left: 20px;
+
+    >div {
+      padding-right: 5px;
+    }
+  }
+
+  .row_block::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    border-radius: 0;
+    background: #e5e5e5;
+  }
+
+  .row_block::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #999999;
+  }
+
+  .right_block,
+  .left_block {
+    min-height: 630px;
+  }
+}
+
+.s_popup .vs-popup--content {
+  height: 200px;
+  position: relative;
+
+  .cg_button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
+
+.card_drop_menu_inner .vs-dropdown--custom.vs-dropdown--menu {
+  width: 150px;
+}
+
+.con-vs-dropdown--menu.vs-dropdown-menu {
+  z-index: 9999999;
+}
+
+.cardhold_popup .vs-popup {
+  min-width: 1000px;
+  min-height: 680px;
+  max-height: 750px;
+}
+
+.vs-popup--background {
+  transition: unset !important;
+  opacity: 1 !important;
+}
+
+.cardholder_page {
+  .con-input-search.vs-table--search {
+    margin-right: 250px;
+    position: relative;
+    top: -15px;
+
+    input {
+      padding: 10px 28px;
+      font-size: 12px;
+    }
+  }
+
+  .table_actions {
+    flex-direction: row-reverse;
+    margin-bottom: -60px;
+    position: relative;
+
+    // top: 60px;
+    .vx-col {
+      padding: 0 5px !important;
+    }
+  }
+
+}
+
+.hover_class {
+  position: relative;
+  top: 20px;
+}
+
+// .con-input-search.vs-table--search {
+//   margin-right: 250px;
+//   position: relative;
+//   top: -21px;
+//   input {
+//     padding: 10px 28px;
+//     font-size: 12px;
+//   }
+// }
+// .table_actions {
+//   flex-direction: row-reverse;
+//   margin-bottom: -60px;
+//   position: relative;
+//   // top: 60px;
+//   .vx-col {
+//     padding: 0 5px !important;
+//   }
+// }
+.fullchange_btn {
+  padding: 9px !important;
+}
+
+.fullchange_btn_inner {
+  border: 0 !important;
+
+  .burger_span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin-bottom: 3px;
+    background: #7367f0;
+  }
+}
+
+.popup_width_small {
+  .vs-popup {
+    min-width: 1000px;
+    min-height: 680px;
+    max-height: 750px;
+  }
+}
+
+.vs-component.con-vs-dialog.vs-dialog-danger {
+  z-index: 9999999999 !important;
+}
+
+// .card_multi_tbl {
+//   margin-top: -70px;
+
+//   .tr-values {
+//     .vs-table--td {
+//       padding: 0 15px !important;
+//     }
+//   }
+// }
+
+.burger_m {
+  width: 38px;
+  height: 38px;
+  // color: rgb(115, 103, 240);
+  // border: 1px solid rgb(115, 103, 240);
+  border-radius: 14%;
+
+  .leading-none i {
+    margin-top: 2px;
+  }
+}
+
+.addOpened {
+  z-index: 99999999;
+  -webkit-transition: none;
+  transition: none;
+
+  .vs-popup--background {
+    -webkit-transition: none;
+    transition: none;
+  }
+
+  .vs-popup {
+    -webkit-transition: none;
+    transition: none;
+    -webkit-animation: none;
+    animation: none;
+  }
+}
+
+.without_back {
+  .vs-popup--background {
+    background: none;
+  }
+}
+
+.da_pop {
+  .email__labels {
+    height: 552px;
+  }
+}
+
+.da_button {
+  margin: -3px 0px 0px;
+  justify-content: flex-end;
+}
+
+.screen_false {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.invite_btn {
+  margin-top: 1.5rem !important;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #22ace8;
+  cursor: pointer;
+
+  i {
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+}
+
+.reg_invite_popup {
+  z-index: 99999999;
+  .vs-popup--content {
+    padding: 0 15px 15px !important;
+  }
+  .vs-popup {
+    width: 400px;
+  }
+}
+
+.confirm_card__delete {
+  display: flex;
+  justify-content: center;
+
+  >.vx-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  span {
+    font-size: 18px;
+  }
+
+  .bold_text {
+    font-weight: 800;
+  }
+}
+
+.load_progress .vs-dialog {
+  width: 700px;
+  max-width: 700px;
+}
+
+.popup_width_small.ed_user .vs-popup {
+  max-height: none !important;
+}
+
+.cardholder_limit {
+  position: relative;
+  width: 130px;
+  top: 22px;
+}
+
+.cardholder_menu_icon:hover {
+  box-shadow: 0 8px 25px -8px rgba(115, 103, 240,1);
+}

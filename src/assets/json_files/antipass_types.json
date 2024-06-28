@@ -1,0 +1,27 @@
+[
+    {
+        "label": "Disable",
+        "id": "disable",
+        "description": ""
+    },
+    {
+        "label": "Soft",
+        "id": "soft",
+        "description": "Access granted with Alarm event 'Anti-passback violation'"
+    },
+    {
+        "label": "Semi Soft",
+        "id": "semi_soft",
+        "description": "1st event - Access denied with Alarm event 'Anti-passback violation'. 2nd event - Access granted"
+    },
+    {
+        "label": "Hard",
+        "id": "hard",
+        "description": "Access denied with Alarm event 'Anti-passback violation'"
+    },
+    {
+        "label": "Extra Hard",
+        "id": "extra_hard",
+        "description": "Access denied with Alarm event 'Anti-passback violation' and set Cardholder inactive"
+    }
+]

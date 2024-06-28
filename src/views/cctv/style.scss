@@ -1,0 +1,322 @@
+.cctv_parent_block {
+  .block_account {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .row_block {
+    min-height: 390px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 0;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  &.other_version {
+    .left_block {
+      .vs-tabs--content {
+        padding: 20px 0 10px;
+      }
+
+      .search_row {
+        margin: 0;
+      }
+
+      .vs-con-table .vs-con-tbody {
+        border: none;
+      }
+
+      .vs-table--tbody-table {
+        min-width: auto;
+      }
+
+      .add_cctv_btn {
+        padding: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
+      }
+
+      .con-input-search.vs-table--search {
+        width: 100%;
+        min-width: auto;
+        margin: 0;
+
+        input {
+          width: 100%;
+        }
+      }
+
+      .add_cctv_btn {
+        .unimacs_add_new_btn {
+          width: 100%;
+          margin: 20px 0 0 !important;
+          text-align: center;
+
+          .vs-button-text.vs-button--text {
+            justify-content: center;
+          }
+        }
+      }
+
+      .vs-table--search i {
+        font-size: 1.4rem;
+        cursor: pointer;
+      }
+    }
+
+    .right_block {
+      display: flex;
+      flex-direction: column;
+      // padding-top: 58px;
+    }
+
+    .ag-theme-material {
+      margin: 0 !important;
+    }
+
+    .cctv_table {
+
+      // border: 1px solid #313357;
+      // tr:hover{
+      //   box-shadow:0px 0px 10px 1px rgba(var(--vs-primary), 0.7);
+      //   transform: none !important;
+      //   background: #f3f2f7 !important;
+      // }
+      .selected_primary {
+        // pointer-events: none;vccvb
+      }
+    }
+
+    .add_section {
+      padding-bottom: 15px;
+    }
+  }
+
+  .right_block {
+    flex: 0 0 70%;
+    max-width: 70%;
+    padding-left: 15px;
+  }
+
+  .left_block {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-right: 15px;
+  }
+
+  .row_block::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    border-radius: 0;
+    background: #e5e5e5;
+  }
+
+  .row_block::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #999999;
+  }
+
+  .new_rr {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .cardGroup_search_parent {
+    margin-left: unset;
+    flex: 1;
+    max-width: unset;
+
+    input {
+      width: 100%;
+    }
+
+    i {
+      top: 13px;
+    }
+  }
+
+  .create_new_group {
+    margin-right: 25px;
+  }
+
+  .card_group_parent {
+    min-height: 600px;
+    padding: 0;
+  }
+
+  .description_block {
+    height: 100%;
+
+    .con-vs-tabs .con-slot-tabs {
+      overflow: visible !important;
+    }
+
+    .con-vs-tabs {
+      overflow: visible !important;
+    }
+  }
+
+  #tree {
+    margin-top: 25px;
+    background: #fff;
+  }
+
+  .cardGroup_search {
+    padding: 10px 28px;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .inner_block_groups {
+    height: 100%;
+    min-height: inherit;
+  }
+
+  .cctv_table {
+    margin-top: 15px;
+  }
+
+  .con-input-search.vs-table--search {
+    width: 100%;
+    min-width: 150px;
+    margin: 0 0 0 80px;
+    max-width: 100%;
+
+    input {
+      width: 100%;
+    }
+  }
+
+  .con-input-search.vs-table--search {
+    margin-right: 0;
+  }
+
+}
+
+
+
+.cctv_popup {
+
+  .test_ok {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.add_cctv_btn {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+
+  .unimacs_add_new_btn {
+    width: 250px;
+  }
+}
+
+
+.set_popup .vs-popup {
+  width: 1200px;
+
+  .view_icon {
+    font-size: 25px;
+  }
+}
+
+.camera_delete {
+  .info {
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 0;
+  }
+
+  .vs-popup {
+    width: 400px;
+  }
+}
+
+.cam_radio {
+  margin-top: 0;
+}
+
+.live_preview {
+  z-index: 999999999999;
+
+  .vs-popup {
+    // background: #262c49 !important;
+    max-width: 800px !important;
+    min-height: 500px !important;
+    min-width: 800px !important;
+  }
+
+  .vs-popup--content {
+    height: 100%;
+  }
+
+  .live_stream_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+  }
+
+
+  .cam_name {
+    text-align: right;
+    width: 100%;
+    margin-top: 190px;
+    font-size: 18px;
+
+    &.camera_name {
+      position: absolute;
+      bottom: 0px;
+      right: 5px;
+    }
+  }
+
+
+  .pending_video {
+    font-size: 30px;
+  }
+}
+
+.group_actions {
+  position: absolute;
+  z-index: 444;
+  right: 0;
+  top: 5px;
+}
+
+.camera_edit_name {
+  z-index: 99999999999;
+}
+
+
+.cameras_to_set {
+  .con-pagination-table.vs-table--pagination {
+    display: none;
+  }
+}
+
+.cctvv {
+  .vs__dropdown-toggle {
+    height: 37px !important;
+    min-height: 37px !important;
+
+    input {
+      height: 36px !important;
+    }
+  }
+}
